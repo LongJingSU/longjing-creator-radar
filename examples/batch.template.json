@@ -1,0 +1,8 @@
+{
+  "runKey": "replace-with-unique-run-key",
+  "source": "模板：请替换为实际采集来源",
+  "notes": "这只是空批次模板。按 COLLECTION.md 填写实际可见内容、采集时间、coverage 与 issues。",
+  "coverage": [],
+  "issues": ["模板尚未采集，不可作为真实完成记录导入"],
+  "items": []
+}

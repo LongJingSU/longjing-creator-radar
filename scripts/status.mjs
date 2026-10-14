@@ -1,0 +1,2 @@
+import { openStore } from '../lib/store.mjs';
+const s=openStore();try{const d=s.state();console.log(JSON.stringify({settings:d.settings,monitors:d.monitors.filter(m=>!m.archived),demandPolicy:d.demandPolicy,collectionPlan:d.collectionPlan,counts:{items:d.items.length,comments:d.comments.length,qualifiedDemands:d.demands.filter(x=>x.qualified).length,pendingLeads:d.demands.filter(x=>!x.qualified).length,topics:d.topics.length},latest:d.runs[0]||null},null,2));}finally{s.close();}
